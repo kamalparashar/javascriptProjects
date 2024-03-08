@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input, button{
+    font: inherit;
+}
+
+body{
+    font-size: 1.5rem;
+    background-color: #212121;
+    color: #fff;
+}
+
+h1{
+    background-color: #000;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 2px solid gray;
+}
+
+p{
+    text-align: center;
+}
+
+.game{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+#userInput{
+    font-size: 3rem;
+    width: 200px;
+    border: none;
+    outline: 5px solid grey;
+    offset: -5px;
+}
+
+.result{
+    line-height: 1.75;
+}
+.result:last-child{
+    text-align: center;
+}
+
+button{
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.25rem 2rem;
+}
+button:hover, button::after{
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+}
